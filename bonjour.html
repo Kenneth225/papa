@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BONJOUR</title>
+</head>
+<body>
+
+
+<button onclick="oracle ()"> Consulter le Fâ</button>
+</body>
+
+<script type="text/javascript">
+	function oracle (){
+		  var result = confirm("Vouler vous connaitre l'avenir ?");
+ 
+              if(result)  {
+
+              		var age = prompt("Quel est votre année de naissance:", "");
+ 
+              if(age != null)  {
+              			var fage = 2050 - age;
+                  alert("En 2050 vous aurez " + fage + " ans");
+              }
+              } else {
+                  alert("Aurevoir!");
+              }
+	}
+</script>
+
+</html>
