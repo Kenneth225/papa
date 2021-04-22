@@ -7,6 +7,8 @@
 
 
 <button onclick="oracle ()" style="margin-left: 56px"> Consulter le Fâ</button>
+<button onclick="salutation ()" style="margin-left: 80px"> Salut moi</button>
+<button onclick="chifre ()" style="margin-left: 100px"> Quel est mon chiffre miracle</button>
 </body>
 
 <script type="text/javascript">
@@ -25,6 +27,22 @@
                   alert("Aurevoir!");
               }
 	}
+
+function salutation(){
+
+                  var nom = prompt("Quel est ton nom:", "");
+ 
+              if(nom != null)  {
+                    
+                  alert("BONJOUR " + nom );
+              }
+              
+}
+
+function chifre(){
+  alert(Math.floor(Math.random() * 10));
+}
+
 </script>
 
 </html>
